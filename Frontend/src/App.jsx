@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar.jsx';
 import JoinSection from './Components/JoinSection.jsx';
 import AboutUs from './Components/AboutUs.jsx';
 import Events from './Components/Events.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <JoinSection />
       <AboutUs />
       <Events />
+      <Footer/>
     </>
   );
 }
