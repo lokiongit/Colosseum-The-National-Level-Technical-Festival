@@ -54,16 +54,16 @@ export default function Navbar() {
                     >
                         <ul className="items-center text-ld justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-indigo-200 cursor-pointer hover:underline ">
-                                <a href="javascript:void(0)">Home</a>
+                                <a href="#home">Home</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="javascript:void(0)">About Us</a>
+                                <a href="#colo">About Us</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="javascript:void(0)">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="javascript:void(0)">Events</a>
+                                <a href="#events">Events</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
                                 <a href="javascript:void(0)">Sponsors</a>

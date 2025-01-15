@@ -5,12 +5,13 @@ import JoinSection from './Components/JoinSection.jsx';
 import AboutUs from './Components/AboutUs.jsx';
 import Events from './Components/Events.jsx';
 import Footer from './Components/Footer.jsx';
+import Contact from './Components/Contact.jsx';
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen relative flex items-center justify-center">
+      <div className="min-h-screen relative flex items-center justify-center" id="home">
         <video autoPlay muted loop id="bgVideo" className="absolute inset-0 w-full h-full object-cover">
           <source src="https://cdn.pixabay.com/video/2017/04/13/8675-213185833_tiny.mp4" type="video/mp4" />
         </video>
@@ -41,7 +42,9 @@ function App() {
       <JoinSection />
       <AboutUs />
       <Events />
+      <Contact/>
       <Footer/>
+     
     </>
   );
 }

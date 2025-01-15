@@ -6,7 +6,7 @@ import Img4 from "../assets/colo1.webp"
 
 const Events = () => {
   return (
-    <div className='p-8 bg-slate-950'>
+    <div className='p-8 bg-slate-950' id="events">
       <div>
         <h1 className='text-white font-serif text-4xl text-center font-bold'>EVENTS</h1>
       </div>
