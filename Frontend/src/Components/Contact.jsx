@@ -24,7 +24,7 @@ const Contact = () => {
             ></iframe>
             <form
               action="#"
-              className="flex flex-col gap-4 lg:max-w-sm text-black"
+              className="flex flex-col gap-4 lg:max-w-sm text-white"
             >
               <div className="grid grid-cols-2 gap-4">
                 <div>
