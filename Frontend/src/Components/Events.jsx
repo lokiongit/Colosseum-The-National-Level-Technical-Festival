@@ -17,7 +17,7 @@ const Events = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Corrobore</h4>
-        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea error suscipit rem quas neque sed, libero officiis itaque. Eius cum doloremque magnam sed. Asperiores nulla beatae soluta, molestias laboriosam quisquam?</p>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Corrobore is the ultimate celebrity night, featuring a sensational live performance by a national-level singer. Immerse yourself in an evening of soulful music, electrifying energy, and unforgettable moments. This star-studded event brings fans and music enthusiasts together to celebrate talent and entertainment in a vibrant atmosphere. Don’t miss the chance to witness your favorite artist create magic on stage—Corrobore promises an experience that will leave you spellbound!</p>
       </div>
     </div>
     <div className=" flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden "><img src={Img2} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
