@@ -21,7 +21,7 @@ const Footer = () => {
                 fill="currentColor" />
             </svg>
           </a>
-          <a href="javascript:;"
+          <a href="https://www.instagram.com/colosseum4cot/#"
             className="p-3 rounded-full bg-white text-gray-900 group transition-all duration-500 hover:bg-amber-500 hover:text-white focus-within:outline-0 focus-within:bg-amber-500 focus-within:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
@@ -52,16 +52,16 @@ const Footer = () => {
           <div className="">
             <h6 className="text-lg font-medium text-white mb-7 max-lg:text-center">COLOSSEUM'25</h6>
             <ul className="flex flex-col max-lg:items-center gap-6">
-              <li><a href="javascript:;"
+              <li><a href="#home"
                   className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus-within:outline-0 focus-within:text-amber-400 hover:underline">Home</a>
               </li>
-              <li><a href="javascript:;"
+              <li><a href="#colo"
                   className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus-within:outline-0 focus-within:text-amber-400 hover:underline">About Us</a>
               </li>
               <li><a href="javascript:;"
                   className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus-within:outline-0 focus-within:text-amber-400 hover:underline">Sponsors</a>
               </li>
-              <li><a href="javascript:;"
+              <li><a href="#contact"
                   className="text-base font-normal max-lg:text-center text-gray-400 whitespace-nowrap transition-all duration-300 hover:text-amber-400 focus-within:outline-0 focus-within:text-amber-400 hover:underline">Contact</a></li>
             </ul>
           </div>
