@@ -7,6 +7,7 @@ import Events from './Components/Events.jsx';
 import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 
+
 function App() {
   return (
     <>
@@ -20,19 +21,20 @@ function App() {
           <p className="mt-2 text-white text-center text-sm md:text-xl font-bold">15 April, 2025</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center bg-black py-10 min-h-full bg-cover ">
-        <div className="text-5xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
-          COLOSSEUM 2025
-        </div>
-      </div>
-      <div className="flex flex-col items-center justify-center bg-black py-2 min-h-full bg-cover ">
-        <div className="text-3xl md:text-xl font-semibold text-white">
-         THE NATIONAL LEVEL TECHNICAL FEST
-        </div>
-      </div>
+      <div className="flex flex-col items-center justify-center bg-black py-10 min-h-full bg-cover">
+  <div className="text-5xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 ml-8 md:ml-0">
+    COLOSSEUM 2025
+  </div>
+</div>
+<div className="flex flex-col items-center justify-center bg-black  min-h-full bg-cover">
+  <div className="text-3xl md:text-xl font-semibold text-white ml-8 md:ml-0">
+    THE NATIONAL LEVEL TECHNICAL FEST
+  </div>
+</div>
+
       <div className="flex flex-col md:flex-row justify-center bg-cover w-full bg-black p-5 space-y-5 md:space-y-0 md:space-x-5 min-h-full">
         <div className="flex items-center">
-          <p className="font-serif font-bold text-xl md:text-3xl text-purple-500 mx-10 text-center md:text-left">Festival gates open at 6 PM on April 17th</p>
+          <p className="font-serif font-bold text-2xl md:text-2xl text-purple-500 mx-10 text-center md:text-left">Festival gates open at 6 PM on April 17th</p>
         </div>
         <div className="border-l-2 border-purple-400 h-auto md:h-24"></div>
         <div className="flex-1 flex items-center mx-10 md:mx-0">
