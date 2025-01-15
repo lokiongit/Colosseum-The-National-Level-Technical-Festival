@@ -24,7 +24,7 @@ const Events = () => {
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="p-6 relative flex flex-col justify-end">
         <h4 className="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">Panga</h4>
-        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ipsum ratione sapiente incidunt architecto qui libero nobis veniam? Tempora illum, maiores nostrum iste quia magni modi itaque quo! Esse, beatae?</p>
+        <p className="block antialiased font-sans text-base font-light leading-relaxed text-white my-2 font-normal">Get ready for the ultimate dance showdown at Panga, the most thrilling group dance competition of Colosseum! Over three electrifying days, watch teams battle it out on stage with breathtaking moves, synchronized rhythms, and unmatched energy. Panga is where passion meets creativity, and every performance tells a story. Join us in celebrating the spirit of dance and teamwork at Colosseum’s most vibrant event!</p>
       </div>
     </div>
     <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src="https://colosseum24.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.dd3b7b8f.JPG&w=3840&q=75" alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
