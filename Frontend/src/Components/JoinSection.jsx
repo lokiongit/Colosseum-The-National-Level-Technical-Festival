@@ -32,6 +32,11 @@ const JoinSection = () => {
 
   return (
     <div className='bg-gradient-to-r from-blue-400 via-black to-purple-400 p-4 md:p-6'>
+      <div className='text-center py-6'>
+      <h1 className="text-4xl md:text-4xl font-bold text-white font-serif">
+          JOIN US
+        </h1>
+      </div>
       <div className="relative w-full overflow-x-auto py-4 md:py-8">
         <div className="flex gap-4 md:gap-6 snap-x snap-mandatory overflow-x-auto pb-4 px-4 md:px-8">
           {images.map((image, index) => (
