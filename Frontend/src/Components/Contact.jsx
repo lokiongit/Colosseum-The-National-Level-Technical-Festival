@@ -17,7 +17,7 @@ const Contact = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Pantnagar+(Location)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=College of Technology,Pantnagar+(Location)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
               className="w-full h-full lg:max-h-[510px]"
               title="Pantnagar Location"
               allowFullScreen
