@@ -29,7 +29,7 @@ const AboutUs = () => {
       >
         {/* Animated heading */}
         <motion.h1 
-          className="my-10 font-bold p-5 text-white font-serif text-4xl"
+          className="my-10 font-bold p-3 text-white font-serif text-4xl mx-0 "
           variants={childVariants}
         >
           ABOUT US
@@ -47,7 +47,7 @@ const AboutUs = () => {
           className="flex items-center mx-10"
           variants={childVariants}
         >
-          <p className="text-white text-lg">
+          <p className="text-white text-sm md:text-xl mx-0 ">
             The only Society taking responsibility to organize all the major and minor events in College of Technology Pantnagar. The ETS has organized various national level events which enhance the personality of the students along with academics. It provides an exposure to students by creating ferocious competitive environment thereby acting as a motivation to excel in their areas of interest.
           </p>
         </motion.div>
