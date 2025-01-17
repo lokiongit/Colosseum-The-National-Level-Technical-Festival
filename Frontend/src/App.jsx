@@ -66,7 +66,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="text-[3.8rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 ml-8 md:ml-0">
+        <div className="text-[3.5rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 ml-8 md:ml-0">
           COLOSSEUM 2025
         </div>
       </motion.div>
