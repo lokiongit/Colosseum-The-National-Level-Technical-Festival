@@ -54,3 +54,9 @@ body {
   background-color: rgba(0, 0, 0, 0);
   margin-top: 60px;
 }
+@media (max-width: 768px) {
+  .mt-8 > div {
+    width: 100%;
+    padding-left: 12px;
+  }
+}

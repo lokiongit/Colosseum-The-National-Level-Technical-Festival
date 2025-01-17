@@ -8,6 +8,7 @@ import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import { motion } from 'framer-motion';
 
+
 function App() {
   return (
     <>
@@ -128,6 +129,7 @@ function App() {
       <JoinSection />
       <AboutUs />
       <Events />
+     
       <Contact />
       <Footer />
     </>
