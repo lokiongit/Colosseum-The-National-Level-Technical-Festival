@@ -19,7 +19,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="bg-black p-4" id="colo">
+    <div className="bg-black py-4 px-2 sm:px-4" id="colo">
       {/* Animated container */}
       <motion.div
         className="text-center"
@@ -29,7 +29,7 @@ const AboutUs = () => {
       >
         {/* Animated heading */}
         <motion.h1 
-          className="my-10 font-bold p-3 text-white font-serif text-4xl mx-0 "
+          className="my-10 font-bold p-3 text-white font-serif text-4xl"
           variants={childVariants}
         >
           ABOUT US
@@ -37,24 +37,24 @@ const AboutUs = () => {
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-opacity-0 p-5"
+        className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-opacity-0 p-2 sm:p-5"
         initial="hidden"
         animate="visible"
         variants={containerVariants}
       >
         {/* Animated text */}
         <motion.div
-          className="flex items-center mx-10"
+          className="flex items-center mx-5 sm:mx-10"
           variants={childVariants}
         >
-          <p className="text-white text-sm md:text-xl mx-0 ">
+          <p className="text-white text-sm md:text-xl mx-0">
             The only Society taking responsibility to organize all the major and minor events in College of Technology Pantnagar. The ETS has organized various national level events which enhance the personality of the students along with academics. It provides an exposure to students by creating ferocious competitive environment thereby acting as a motivation to excel in their areas of interest.
           </p>
         </motion.div>
 
         {/* Animated image */}
         <motion.div
-          className="flex items-center mx-10"
+          className="flex items-center mx-5 sm:mx-10"
           variants={{
             hidden: { opacity: 0, scale: 0.8, rotate: 10 }, // Start scaled down and rotated
             visible: {
