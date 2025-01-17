@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
       <section className="pt-16 pb-7 bg-gray-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          ({" "}
+          {" "}
           <div className="flex gap-5 flex-col">
             {" "}
             <div className="flex flex-col items-center justify-center p-4">
