@@ -65,7 +65,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="text-5xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 ml-8 md:ml-0">
+        <div className="text-[3.8rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 ml-8 md:ml-0">
           COLOSSEUM 2025
         </div>
       </motion.div>
@@ -77,7 +77,7 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2 }}
       >
-        <div className="text-3xl md:text-xl font-semibold text-white ml-8 md:ml-0">
+        <div className="text-xl md:text-3xl font-semibold text-white ml-8 md:ml-0">
           THE NATIONAL LEVEL TECHNICAL FEST
         </div>
       </motion.div>
@@ -102,7 +102,7 @@ function App() {
           className="flex items-center"
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         >
-          <p className="font-serif font-bold text-2xl md:text-2xl text-purple-500 mx-10 text-center md:text-left">
+          <p className="font-serif font-bold text-xl md:text-2xl text-purple-500 mx-10 text-center md:text-left">
             Festival gates open at 6 PM on April 17th
           </p>
         </motion.div>
