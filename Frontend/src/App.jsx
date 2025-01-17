@@ -8,7 +8,6 @@ import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import { motion } from 'framer-motion';
 
-
 function App() {
   return (
     <>
@@ -66,7 +65,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="text-[3.5rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 ml-8 md:ml-0">
+        <div className="text-center text-[3.8rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
           COLOSSEUM 2025
         </div>
       </motion.div>
@@ -78,14 +77,14 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2 }}
       >
-        <div className="text-xl md:text-3xl font-semibold text-white ml-8 md:ml-0">
+        <div className="text-center text-xl md:text-3xl font-semibold text-white">
           THE NATIONAL LEVEL TECHNICAL FEST
         </div>
       </motion.div>
 
       {/* Info Section */}
       <motion.div
-        className="flex flex-col md:flex-row justify-center bg-cover w-full bg-black p-5 space-y-5 md:space-y-0 md:space-x-5 min-h-full"
+        className="flex flex-col md:flex-row justify-center items-center bg-cover w-full bg-black p-5 space-y-5 md:space-y-0 md:space-x-5 min-h-full"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -100,10 +99,10 @@ function App() {
       >
         {/* Festival Gates Info */}
         <motion.div
-          className="flex items-center"
+          className="flex items-center text-center md:text-left"
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         >
-          <p className="font-serif font-bold text-xl md:text-2xl text-purple-500 mx-10 text-center md:text-left">
+          <p className="font-serif font-bold text-xl md:text-2xl text-purple-500">
             Festival gates open at 6 PM on April 17th
           </p>
         </motion.div>
@@ -111,7 +110,7 @@ function App() {
 
         {/* Event Description */}
         <motion.div
-          className="flex-1 flex items-center mx-10 md:mx-0"
+          className="flex-1 flex items-center text-center md:text-left"
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         >
           <p className="text-white text-sm md:text-base">
@@ -129,7 +128,6 @@ function App() {
       <JoinSection />
       <AboutUs />
       <Events />
-     
       <Contact />
       <Footer />
     </>
