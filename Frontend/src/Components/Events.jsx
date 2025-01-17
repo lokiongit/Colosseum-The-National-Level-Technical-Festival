@@ -10,7 +10,7 @@ const Events = () => {
       <div>
         <h1 className='text-white font-serif text-4xl text-center font-bold'>EVENTS</h1>
       </div>
-      <p className='text-center p-9 text-white text-xl font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, velit!</p>
+      
 <section className="container mx-auto px-8  lg:py-18">
   <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
     <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"><img src={Img1} alt="bg" className="absolute inset-0 h-full w-full object-cover object-center" />
