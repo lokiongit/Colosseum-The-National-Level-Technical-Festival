@@ -109,7 +109,7 @@ const Footer = () => {
             </a>
             <div className="flex items-center gap-4">
               <a
-                href="javascript:;"
+                href="https://www.facebook.com/CotColosseum"
                 className="p-3 rounded-full bg-white text-gray-700 group transition-all duration-500 hover:bg-amber-500 hover:text-white focus-within:outline-0 focus-within:bg-amber-500 focus-within:text-white"
               >
                 <svg
