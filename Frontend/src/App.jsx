@@ -7,7 +7,7 @@ import Events from './Components/Events.jsx';
 import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import { motion } from 'framer-motion';
-import BgVid from './assets/bgvid/C0344.MP4'; 
+import BgVid from './assets/bgvid/vd.mp4'; 
 
 function App() {
   return (
