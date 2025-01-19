@@ -7,14 +7,12 @@ import Events from './Components/Events.jsx';
 import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import { motion } from 'framer-motion';
+import BgVid from './assets/bgvid/C0344.MP4'; 
 
 function App() {
   return (
     <>
-      {/* Navbar */}
       <Navbar />
-
-      {/* Background Video Section */}
       <motion.div
         className="min-h-screen relative flex items-center justify-center"
         id="home"
@@ -30,7 +28,7 @@ function App() {
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source
-            src="https://cdn.pixabay.com/video/2017/04/13/8675-213185833_tiny.mp4"
+            src={BgVid}
             type="video/mp4"
           />
         </video>
@@ -58,19 +56,16 @@ function App() {
         </motion.div>
       </motion.div>
 
-      {/* Event Title Section */}
       <motion.div
         className="flex flex-col items-center justify-center bg-black py-10 min-h-full bg-cover"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="text-center text-[3.8rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
+        <div className="text-center text-[3.5rem] md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
           COLOSSEUM 2025
         </div>
       </motion.div>
-
-      {/* Event Subtitle Section */}
       <motion.div
         className="flex flex-col items-center justify-center bg-black min-h-full bg-cover"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -82,7 +77,6 @@ function App() {
         </div>
       </motion.div>
 
-      {/* Info Section */}
       <motion.div
         className="flex flex-col md:flex-row justify-center items-center bg-cover w-full bg-black p-5 space-y-5 md:space-y-0 md:space-x-5 min-h-full"
         initial="hidden"
@@ -97,7 +91,6 @@ function App() {
           },
         }}
       >
-        {/* Festival Gates Info */}
         <motion.div
           className="flex items-center text-center md:text-left"
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
@@ -108,7 +101,7 @@ function App() {
         </motion.div>
         <div className="border-l-2 border-purple-400 h-auto md:h-24"></div>
 
-        {/* Event Description */}
+  
         <motion.div
           className="flex-1 flex items-center text-center md:text-left"
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
@@ -124,7 +117,6 @@ function App() {
         </motion.div>
       </motion.div>
 
-      {/* Other Components */}
       <JoinSection />
       <AboutUs />
       <Events />
