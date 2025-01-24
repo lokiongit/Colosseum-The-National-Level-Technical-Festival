@@ -1,10 +1,30 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const handleLinkClick = () => {
+        setNavbar(false);
+    };
 
     return (
-        <nav className="w-full fixed top-0 left-0 right-0 bg-black shadow z-10 bg-filter bg-opacity-55">
+        <nav className={`fixed top-0 left-0 right-0 z-10 transition-all duration-300 ${scrolled ? 'bg-black bg-opacity-100 shadow' : 'bg-transparent'}`}>
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 my-5">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -22,7 +42,7 @@ export default function Navbar() {
                                     >
                                         <path
                                             fillRule="evenodd"
-                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 111.414 1.414L11.414 10l4.293 4.293a1 1 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
                                             clipRule="evenodd"
                                         />
                                     </svg>
@@ -52,21 +72,21 @@ export default function Navbar() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center text-ld justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200 cursor-pointer hover:underline ">
-                                <a href="#home">Home</a>
+                        <ul className="items-center text-lg justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                            <li className="text-white hover:text-indigo-200 cursor-pointer hover:underline">
+                                <a href="#home" onClick={handleLinkClick}>Home</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="#colo">About Us</a>
+                                <a href="#about" onClick={handleLinkClick}>About Us</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" onClick={handleLinkClick}>Contact</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="#events">Events</a>
+                                <a href="#events" onClick={handleLinkClick}>Events</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 hover:underline">
-                                <a href="javascript:void(0)">Sponsors</a>
+                                <a href="javascript:void(0)" onClick={handleLinkClick}>Sponsors</a>
                             </li>
                         </ul>
                     </div>
